@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title> にゃんこ </title>
+    </head>
+  
+
+    <h1>B社美容室</h1>
+    <p>B社は首都圏に約50店の美容室を運営する美容室チェーンです。</p>
+    <h2>B社のサービス</h2>
+    <a href =  "https://eeic.jp/"> 近未来体験</a>
+    <ul>
+        <li>顧客カード持参で割引価格に！</li>
+        <li>おすすめの髪型をAIが提案！</li>
+        <li>毎月お得なクーポンがたくさん！</li>
+        <li>スマートフォンから来店予約！</li>
+    </ul>
+    <div style = "border: 1px solid #000; padding: 10px;"><!-- ここCSSらしい -->
+        <p>divはいくつかの要素をまとめて囲います</p>
+        <p>今回は二つの段落を囲んでいます。</p>
+    </div>
+
+    <h1 class = "redback">赤色の大見出し</h1>
+    <h2 class = "redback">赤色の小見出し</h2>
+
+    <div class = "button">ボタン</div>
+    <style>
+        h1 {
+            background: #c2edff;
+            padding: 0.5em;
+            border-bottom: dached 5px #ff00ff;
+        }
+
+        h2 {
+            border-left: solid 7px #010079;
+            color: #010079;
+            padding-left: 5px;
+        }
+
+        .redback {
+            background: red;
+        }
+
+        div.button {
+            background: #00ff00;
+        }
+
+        div.button:hover {
+            background: #ff0000;
+        }
+
+        h2::before {
+            content: ">";
+            width: 10px;
+            background: #ff0000;
+        }
+
+
+    </style>
+</html>
